@@ -1,0 +1,12 @@
+{
+  "name": "html-test",
+  "version": "3.8.0-beta.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  	"build": "rm -rf dist && mkdir dist && cp -r src/ dist/ && node versionAssets.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
